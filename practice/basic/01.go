@@ -1,9 +1,10 @@
-package main
+package basic
 
 import (
 	"fmt"
 )
 
-func main() {
+func add() {
+
 	fmt.Println("Hello World")
 }
