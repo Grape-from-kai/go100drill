@@ -19,6 +19,9 @@ func main() {
 			case "00":
 				basic.HelloWorld()
 			}
+		} else {
+			fmt.Println("unknown error")
+			os.Exit(0)
 		}
 	}
 }
