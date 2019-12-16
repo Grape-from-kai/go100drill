@@ -1,10 +1,17 @@
-package basic
+package main
 
 import (
 	"fmt"
+	"strconv"
 )
 
-func add() {
+func main() {
+	const (
+		lhs = 12345
+		rhs = 23456
+	)
 
-	fmt.Println("Hello World")
+	var output = strconv.Itoa(lhs) + "+" + strconv.Itoa(rhs) + "=" + strconv.Itoa(lhs + rhs)
+	fmt.Println(output)
+	
 }
